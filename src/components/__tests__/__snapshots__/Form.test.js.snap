@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form snapshot renders correctly 1`] = `
+<form
+  className="form-control"
+  data-testid="form"
+  onSubmit={[Function]}
+>
+  <input
+    className="task-input"
+    data-testid="form-input"
+    onChange={[Function]}
+    placeholder="Enter a Todo..."
+    required={true}
+    type="text"
+  />
+</form>
+`;

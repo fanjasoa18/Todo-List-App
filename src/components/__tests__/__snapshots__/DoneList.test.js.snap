@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Done snapshot renders correctly 1`] = `
+<div
+  className="card"
+  data-testid="done-test"
+>
+  <li
+    className="list-item"
+    data-testid="done-list"
+  >
+    <input
+      className="list-done"
+      onChange={[Function]}
+      type="text"
+      value="banana"
+    />
+  </li>
+  <li
+    className="list-item"
+    data-testid="done-list"
+  >
+    <input
+      className="list-done"
+      onChange={[Function]}
+      type="text"
+      value="pineapple"
+    />
+  </li>
+</div>
+`;

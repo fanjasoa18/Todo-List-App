@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo snapshot renders correctly 1`] = `
+<div
+  className="card"
+  data-testid="todo-test"
+>
+  <li
+    className="list-item"
+    data-testid="todo-list"
+  >
+    <input
+      className="list"
+      onChange={[Function]}
+      type="text"
+      value="banana"
+    />
+    <div
+      className="button"
+    >
+      <input
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </div>
+  </li>
+  <li
+    className="list-item"
+    data-testid="todo-list"
+  >
+    <input
+      className="list"
+      onChange={[Function]}
+      type="text"
+      value="pineapple"
+    />
+    <div
+      className="button"
+    >
+      <input
+        onChange={[Function]}
+        type="checkbox"
+      />
+    </div>
+  </li>
+</div>
+`;

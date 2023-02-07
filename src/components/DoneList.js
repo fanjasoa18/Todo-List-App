@@ -1,11 +1,11 @@
 import React from "react";
 
 function DoneList({done}) {
-    
+
     return(
-        <div className="card">
+        <div data-testid="done-test" className="card" >
            {done.map((todo) => (
-                <li className="list-item" key={todo.id}>
+                <li data-testid="done-list" className="list-item" key={todo.id}>
                     <input 
                         type="text" 
                         value={todo.title} 

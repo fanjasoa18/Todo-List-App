@@ -53,21 +53,6 @@
     border-radius: 10px;
 }
 
-.btn-add {
-    width: 90px;
-    padding: 15px 15px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: 0;
-    background-color: #ccc;
-    cursor: pointer;
-}
-
-.btn-add:hover {
-    color: #ccc;
-    background-color: black;
-}
-
 .app_wrapper{
     display: flex;
     justify-content: space-around;
@@ -164,33 +149,8 @@
     margin-left: 5px;
 }
 
-.button-complete,
-.button-delete,
-.button-edit {
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background-color: transparent;
-    font-size: 20px;
-    border-radius: 50%;
-}
-
-.button-complete {
-    color: lightseagreen;
-    
-}
-
-.button-edit {
-    color: #e2d029;
-    margin-left: 6px;
-}
-
-.button-delete {
-    color: #ff6c6c;
-}
-
 .list {
-    width: 130px;
+    width: 190px;
     background-color: #12343b;
     border: none;
     color: #ccc;
